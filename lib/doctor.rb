@@ -20,6 +20,6 @@ class Doctor
   end
   
   def patients 
-    appointments.map {|song| song.artist}
+    appointments.map {|patient| patient.doctor}
   end
 end
