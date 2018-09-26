@@ -40,10 +40,7 @@ describe 'Patient' do
       expect(steve.appointments).to include(appointment_two)
     end
   end
-<<<<<<< HEAD
 
-=======
->>>>>>> c97930857b17d8b5b2588f12b4760c7ee7e88454
   describe '#doctors' do
     it 'has many doctors through appointments' do
       doctor_who = Doctor.new('The Doctor')
